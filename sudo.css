@@ -1,0 +1,60 @@
+button{
+    padding:10px;
+    background-color: beige;
+}
+
+button{
+    background-color: aquamarine;
+    font-size: large;
+}
+p:hover{
+    color: yellow;
+}
+input:focus{
+    outline: 2px solid rgb(red, green, blue);
+
+  }
+button:active{
+    color: brown;
+    background-color: blueviolet;
+}
+p:active{
+    color: chartreuse;
+}
+
+  input:nth-child(even){
+    border: 3px solid pink;
+  }
+
+  input:first-of-type{
+    padding: 20px;
+  }
+
+  p::first-line{
+    color: red(174, 216, 23);
+  }
+
+  p::first-letter{
+    color: blue;
+    font-size: x-large;
+  }
+
+  button:first-child{
+    padding: 50px;
+  }
+
+  button:last-child{
+    padding: 50px;
+  }
+
+ /* input:not([type="email"]){
+padding: 30px;
+  }
+
+  input:not([type="checkbox"]:checked){
+    padding: 10px;
+    
+  }*/
+input:disabled{
+    background-color: coral;
+}

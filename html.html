@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        #drawing-area {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        form input, form textarea, form button {
+            margin: 5px 0;
+            padding: 10px;
+        }
+        footer {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Web Page</h1>
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#drawing-area">DRAWING AREA</a>
+            <a href="#contact">CONTACT US</a>
+        </nav>
+        <h3>What is HTML?</h3>
+        <p>
+            HTML stands for Hyper Text Markup Language.<br>
+            HTML is the standard markup language for creating Web pages.<br>
+            HTML describes the structure of a Web page.<br>
+            HTML elements tell the browser how to display the content.<br>
+        </p>
+        
+        <h3>Canvas</h3>
+        <p>
+            The HTML &lt;canvas&gt; element is used to draw graphics on a web page.<br>
+            You must use a script to actually draw the graphics.<br>
+            Canvas has several methods for drawing paths, boxes, circles, text, and adding images.<br>
+            Supported by all major browsers.<br>
+        </p>
+
+        <h3>SVG</h3>
+        <p>
+            SVG stands for Scalable Vector Graphics.<br>
+            SVG defines vector-based graphics in XML format.<br>
+            SVG graphics are scalable, and do not lose any quality if they are zoomed or resized.<br>
+            Supported by all major browsers.<br>
+        </p>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Our Website</h2>
+        <p>This is the home page content. Explore the projects, try the drawing area, or contact us for more information!</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <p>HTML tags in use:</p>
+        <ul>
+            <li><strong>Image Tag:</strong><br>
+                <img src="th.jpeg" alt="Sample Image" width="300" height="200">
+            </li>
+            <!-- <li><strong>Video Tag:</strong><br>
+                <video width="320" height="240" controls>
+                    <source src="sample.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </li> -->
+            <li><strong>Video Tag (YouTube):</strong><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rMG-tO_mSkg?si=A94xyx-ZNF5JafpG" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </li>            
+            <li><strong>iFrame Tag:</strong><br>
+                <iframe src="hadoop install.mp4" title="Sample iFrame" width="400" height="300"></iframe>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Drawing Area Section -->
+    <section id="drawing-area">
+        <h2>DRAWING AREA</h2>
+        <p>Space for your creative ideas using MongoDB. We are here to help you.</p>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 by never give up! ®All Rights focus</p>
+    </footer>
+
+</body>
+</html>

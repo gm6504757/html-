@@ -1,0 +1,82 @@
+/*p:first-child{
+    color: chocolate;
+}
+
+div + p{
+    color: rgb(25, 219, 41);
+}*/
+
+/*p:last-child{
+    color: cornflowerblue;
+}
+
+p:nth-child(4){
+    color: deeppink;
+}*/
+
+p:nth-last-child(1){
+    background-color: rgb(6, 34, 87);
+}
+p:nth-last-of-type(1){
+    color: chartreuse;
+}
+[type=checkbox]:checked{
+    accent-color:blue;
+    width: 10px;
+    height: 40px;
+}
+/*  *pseudo Elements selectors/
+
+/* :before
+
+:after */
+P::before{
+    content:'"' ;
+    font-size: x-large;
+    color: darkgreen;
+}
+P::after{
+    content:'"' ;
+    font-size: x-large;
+    color: darkgreen;
+}
+/*span{
+    font-size: x-large;
+    color: darkred;
+}
+div p{
+color: green;
+}*/
+div > p{
+    color: blue;
+}
+div ~ p{
+    color: rgb(158, 74, 14);
+}
+div + p{
+color: darkcyan;
+}
+ul{
+    list-style: none;
+}
+nav > ul > li + li{
+    font-size: 40px;
+}
+article > h2 ~ p{
+    color: blueviolet;
+    font-size: x-large;
+    text-indent: 20px;
+
+    font-family: sans-serif;
+    text-align: center;
+}
+p{
+    /* text-decoration: underline;
+    text-decoration-style: dashed;
+    text-transform: capitalize; 
+    line-height: 20px;*/
+    font-size: 20px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    font-family: fantasy;
+}

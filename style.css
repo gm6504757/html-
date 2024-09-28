@@ -1,0 +1,13 @@
+@font-face{
+    font-family: myCustomFont;
+    src: url("./opensans-regular.woff2");
+}
+body {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    font-family: 'Poppins',mahesh;
+    font-weight: 100;
+    font-style: normal;
+}
